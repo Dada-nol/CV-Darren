@@ -1,0 +1,14 @@
+.left-border{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.right-border{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
