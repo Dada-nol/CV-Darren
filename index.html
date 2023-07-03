@@ -7,38 +7,48 @@
     <title>Curriculum vitae Nol Dada</title>
     <link rel="shortcut icon" href="Images/favicon/cv.png" type="image/x-icon">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/Flexbox.css">
+    <link rel="stylesheet" href="CSS/header-footer.css">
 </head>
 
 <body class="page">
 
     <header class="page__header">
 
-        <section class="page__header-presentation">
-            <img class="page__header-photo" src="Images/pdp/1670338567903.jpg" alt="Photo de profil"> <!--Ajouter un lien vers l'image-->
-            <h1 class="page__header-name">
-            NOL Dada
-            </h1>
-            <p class="page__header-job"><strong>Developeur web junior</strong></p> 
-            
-        </section>
+            <div class="page__header-photo">
+                <img  src="Images/pdp/1670338567903.jpg" alt="Photo de profil"> <!--Ajouter un lien vers l'image-->
+            </div>
+                
+            <div>
+                <h1 class="my-name">
+                    NOL Dada
+                </h1>
+            </div>
+    
+            <div>
+                <p class="my-job"><strong>Developeur web junior</strong></p>
+            </div>
 
-        <div class="page__header-contact">
-            <a class="page__header-adress" target="_blank" href="https://www.google.fr/maps/place/50+Pl.+Bernard+Dubois,+13001+Marseille/@43.3019971,5.3778298,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x12c9c09cd0a4e641:0x13e1ae5c4a484e30!2sSaint-Charles,+13001+Marseille!3b1!8m2!3d43.3040058!4d5.3900909!16s%2Fg%2F121763zp!3m5!1s0x12c9c0965e2b224f:0xb0d39649b746a80a!8m2!3d43.3019944!4d5.3796505!16s%2Fg%2F11p5cbz0x7?entry=ttu">50 Pl. Bernard Dubois, 13001 Marseille</a>
-            <a class="page__header-mail" href="mailto:dada@gmail.com">dada@gmail.com</a>
-            <a class="page__header-tel" href="tel:0612891651">M'appeler</a>
-        </div>
+        <nav>
+
+            <ul class="nav-list">
+                <li class="nav-item"><a target="_blank" href="https://www.google.fr/maps/place/50+Pl.+Bernard+Dubois,+13001+Marseille/@43.3019971,5.3778298,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x12c9c09cd0a4e641:0x13e1ae5c4a484e30!2sSaint-Charles,+13001+Marseille!3b1!8m2!3d43.3040058!4d5.3900909!16s%2Fg%2F121763zp!3m5!1s0x12c9c0965e2b224f:0xb0d39649b746a80a!8m2!3d43.3019944!4d5.3796505!16s%2Fg%2F11p5cbz0x7?entry=ttu">50 Pl. Bernard Dubois, 13001 Marseille</a></li>
+                <li class="nav-item"><a href="mailto:dada@gmail.com">dada@gmail.com</a></li>
+                <li class="nav-item"><a href="tel:0612891651">M'appeler</a></li>
+            </ul>
+            
+        </nav>
         
     </header>
 
     <main class="page__main">
-        <section class="page__apropos left-border">
+
+        <div class="page__apropos left-border">
             <h2 class="page__title">A propos</h2>
 
             <p>Je suis un grand sportif qui aime se lancer des défis, découvrir de nouvelles choses et maitrise les outils et technologies des réseaux sociaux. Etant passionné d'informatique, je suis actuellement en formation pour devenir dévelopeur web.</p>
-        </section>
+        </div>
 
-        <section class="page__langues left-border">
+        <div class="page__langues left-border">
             <h2 class="page__title">Langues parlées</h2>
 
             <ul class="page__langues-list">
@@ -46,9 +56,9 @@
                 <li class="page__langues-item">Anglais : Intermédiaire</li>
                 <li class="page__langues-item">Italien : Débutant</li>
             </ul>
-        </section>
+        </div>
 
-        <section class="page__hobby left-border">
+        <div class="page__hobby left-border">
             <h2 class="page__title">Centres d'intérêt</h2>
 
             <ul class="page__hobby-list">
@@ -57,9 +67,9 @@
                 <li class="page__hobby-item">Réseaux sociaux</li>
                 <li class="page__hobby-item">Jeux vidéo</li>
             </ul>
-        </section>
+        </div>
 
-        <section class="page__exp right-border">
+        <div class="page__exp right-border">
             <h2 class="page__title">Expériences professionelles</h2>
 
                 <h3 class="page__exp-title">Stagiaire enseignant en activité physique adaptée - Handi Sud Basket</h3>
@@ -91,9 +101,9 @@
                         <li class="page__exp-item">Maintien de la propreté de la cuisine et de la salle</li>
                         <li class="page__exp-item">S'assurer que la nourriture soit toujours de bonne qualité</li>
                     </ul>
-        </section>
+        </div>
 
-        <section class="page__formations right-border">
+        <div class="page__formations right-border">
             <h2 class="page__title">Diplômes/Formations</h2>
 
                 <h3 class="page__formations-title">Baccalauréat scientique</h3>
@@ -110,9 +120,9 @@
 
                 <p>De <time datetime="2019-09">Septembre 2018</time> à <time datetime="2020-06">Juin 2020</time></p>
                 <p>Université de Luminy</p>
-        </section>
+        </div>
 
-        <section class="page__comp right-border">
+        <div class="page__comp right-border">
             <h2 class="page__title">Compétences</h2>
 
                 <ul class="page__comp-list">
@@ -120,7 +130,7 @@
                     <li class="page__comp-item">CSS : Débutant</li>
                     <li class="page__comp-item">GitHub : Débutant</li>
                 </ul>
-        </section>
+        </div>
 
     </main>
 
