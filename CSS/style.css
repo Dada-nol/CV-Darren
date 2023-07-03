@@ -1,12 +1,12 @@
 *{
     font-family:sans-serif;
-    padding: 0;
-    margin: 0;
+    margin: auto;
     box-sizing: border-box;
     text-decoration: none;
     justify-content: center;
     width: auto;
-    max-width: 1160px;    
+    max-width: 1160px;  
+    
 }
 
 
