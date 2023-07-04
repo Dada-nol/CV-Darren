@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "Rachel Brown";
+    src: url('../Font/RachelBrown.woff');
+    src: url('../Font/RachelBrown.ttf') format('ruetype'),
+    url('../Font/RachelBrown.otf') format('opentype');
+}
+
+*{
+    margin: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    justify-content: center;
+    width: auto;
+    max-width: 1160px;     
+}
+
+h1{
+    font-family: "Roboto", "sans-serif";
+}
+
+h2{
+    font-family: "Roboto", "sans-serif";
+}
+
+h3{
+    font-family: "Roboto", "sans-serif";
+}
+
+p{
+    font-family: "Rachel Brown", "serif";
+}
+
+ul{
+    font-family: "Rachel Brown", "serif"; 
+}
+
+
+
+
+

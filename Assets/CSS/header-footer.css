@@ -16,6 +16,10 @@ img{
     -15px 0 30px red;
 }
 
+img:hover{
+    cursor: zoom-in;
+}
+
 .my-name{
     color: white;
     margin: 1em 0;
@@ -38,6 +42,11 @@ img{
 .nav-item{
     text-transform:capitalize;
     font-size: medium;
+    font-style: italic;
+}
+
+.nav-item:hover{
+    text-decoration:underline white ;
 }
 
 .nav-item a{
@@ -49,4 +58,9 @@ footer{
     background-color:#782221;
     color: white;
     
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
 }
