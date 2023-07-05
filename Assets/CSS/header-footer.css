@@ -5,7 +5,7 @@ header div{
     background-color: #782221 ;
 }
 
-img{
+header img{
     margin-top: 1em;
     width: 200px;
     height: 200px;
@@ -16,7 +16,7 @@ img{
     -15px 0 30px red;
 }
 
-img:hover{
+header img:hover{
     cursor: zoom-in;
 }
 
@@ -57,10 +57,19 @@ img:hover{
 footer{
     background-color:#782221;
     color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
     
 }
 
-footer p{
-    display: flex;
-    justify-content: center;
+
+footer img{
+    margin: 0 0 0 30px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    
 }
+
