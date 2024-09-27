@@ -59,3 +59,10 @@
 .right-column ul:hover {
   border-right: 15px solid #dbc2a4;
 }
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
